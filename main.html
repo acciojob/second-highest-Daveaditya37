@@ -14,9 +14,10 @@
         return "-Infinity";
     }
 		
-
     // Sort the array in ascending order
-    arr.sort();
+   arr.sort((a, b) => a - b);
+
+console.log(arr);
 
     // Start from the second last element as 
     // the largest element is at last
